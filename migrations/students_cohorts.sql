@@ -1,10 +1,3 @@
--- CREATE TABLE cohorts (
---   id SERIAL PRIMARY KEY,
---   name VARCHAR(50),
---   start_date VARCHAR(DATE),
---   end_date VARCHAR(DATE)
--- );
-
 CREATE TABLE cohorts (
   id SERIAL PRIMARY KEY NOT NULL,
   name VARCHAR(255) NOT NULL,
